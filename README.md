@@ -33,3 +33,6 @@ server {
 	}
 }
 ```
+
+关于 `gzip` 压缩，默认配置是开启的。
+所在文件路径是：`/etc/nginx/nginx.conf`
