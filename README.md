@@ -11,7 +11,7 @@
 `nginx` 读音为 `engine-x` /’endʒɪneks/
 
 配置文件路径：
-`/etc/nginx/sites-available/defalut`
+`/etc/nginx/sites-available/default`
 
 默认展示文件路径：
 `/var/www/html`
@@ -21,7 +21,7 @@
 server {
 	listen 80 default_server;
 	listen [::]:80 default_server;
-	# ngnix 默认根目录
+	# nginx 默认根目录
 	root /var/www/html;
 	# 默认寻找的文件
 	index index.html index.htm index.nginx-debian.html;
@@ -41,7 +41,24 @@ server {
 
 安全问题很是重要
 
--   SSH
--   FireWall
--   Update
--   VPN
+- SSH
+- FireWall
+- Update
+- VPN
+
+## http
+
+> Stand for: **hypertext transport protocol**
+
+### headers
+
+common headers
+
+| key             | value                             |
+| --------------- | --------------------------------- |
+| User-agent      | The requesting device type        |
+| Accept          | What the device will handle       |
+| Accept-language | Browser languages                 |
+| Content-type    | The type of media                 |
+| _Set-cookie_    | Sets stateful information         |
+| X-              | Typically used for custom headers |
