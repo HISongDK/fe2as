@@ -62,3 +62,13 @@ common headers
 | Content-type    | The type of media                 |
 | _Set-cookie_    | Sets stateful information         |
 | X-              | Typically used for custom headers |
+
+### status code
+
+| code | mean         |
+| ---- | ------------ |
+| 1xx  | Information  |
+| 2xx  | Success      |
+| 3xx  | Redirect     |
+| 4xx  | Client error |
+| 5xx  | Server error |
